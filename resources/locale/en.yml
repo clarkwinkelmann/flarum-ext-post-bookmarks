@@ -1,0 +1,16 @@
+clarkwinkelmann-post-bookmarks:
+    forum:
+        button:
+            add: Bookmark
+            remove: Bookmarked
+        alert:
+            added: Bookmark added!
+            removed: Bookmark removed!
+            show-bookmarks: Go to bookmarks
+        badge: Bookmarked
+        page:
+            link: Bookmarks
+            title: Bookmarks
+    admin:
+        settings:
+            independentButton: Show bookmark control in discussion sidebar instead of dropdown
