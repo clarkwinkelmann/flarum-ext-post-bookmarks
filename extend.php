@@ -17,6 +17,9 @@ return [
         ->js(__DIR__ . '/js/dist/forum.js')
         ->route('/bookmarked-posts', 'post-bookmarks'),
 
+    (new Extend\Frontend('admin'))
+        ->js(__DIR__ . '/js/dist/admin.js'),
+
     new Extend\Locales(__DIR__ . '/resources/locale'),
 
     (new Extend\Model(Post::class))
@@ -53,4 +56,8 @@ return [
 
     (new Extend\ModelVisibility(Discussion::class))
         ->scope(Access\ScopeDiscussionVisibility::class),
+
+    (new Extend\Settings())
+        ->serializeToForum('post-bookmarks.buttonPosition', 'post-bookmarks.buttonPosition')
+        ->serializeToForum('post-bookmarks.headerBadge', 'post-bookmarks.headerBadge', 'boolval'),
 ];

@@ -13,4 +13,8 @@ clarkwinkelmann-post-bookmarks:
             title: Bookmarks
     admin:
         settings:
-            independentButton: Show bookmark control in discussion sidebar instead of dropdown
+            buttonPosition: Button position
+            buttonPositionHeader: Above post (header)
+            buttonPositionActions: Below post (quick actions)
+            buttonPositionMenu: In post menu (3 dots)
+            headerBadge: Show bookmark label above a bookmarked post

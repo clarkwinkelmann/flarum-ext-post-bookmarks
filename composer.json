@@ -2,13 +2,13 @@
     "name": "clarkwinkelmann/flarum-ext-post-bookmarks",
     "description": "Bookmark posts to find them easily later",
     "keywords": [
-        "flarum"
+        "flarum",
+        "bookmark"
     ],
     "type": "flarum-extension",
     "license": "MIT",
     "require": {
-        "flarum/core": ">=0.1.0-beta.16 <0.1.0-beta.17",
-        "ext-json": "*"
+        "flarum/core": "^0.1.0-beta.16"
     },
     "authors": [
         {
@@ -29,7 +29,7 @@
     "extra": {
         "flarum-extension": {
             "title": "Post Bookmarks",
-            "category": "discussion",
+            "category": "feature",
             "icon": {
                 "name": "fas fa-bookmark",
                 "backgroundColor": "#684ba6",
