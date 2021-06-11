@@ -24,7 +24,10 @@ You can [contact me](https://clarkwinkelmann.com/flarum) to sponsor additional f
 
 Support is offered on a "best effort" basis through the Flarum community thread.
 
+**Sponsors**: [FlarumTR](https://flarumtr.com/)
+
 ## Links
 
 - [GitHub](https://github.com/clarkwinkelmann/flarum-ext-post-bookmarks)
 - [Packagist](https://packagist.org/packages/clarkwinkelmann/flarum-ext-post-bookmarks)
+- [Discuss](https://discuss.flarum.org/d/27698)

@@ -19,7 +19,8 @@
         }
     ],
     "support": {
-        "source": "https://github.com/clarkwinkelmann/flarum-ext-post-bookmarks"
+        "source": "https://github.com/clarkwinkelmann/flarum-ext-post-bookmarks",
+        "forum": "https://discuss.flarum.org/d/27698"
     },
     "autoload": {
         "psr-4": {
@@ -35,6 +36,9 @@
                 "backgroundColor": "#684ba6",
                 "color": "#fff"
             }
+        },
+        "flagrow": {
+            "discuss": "https://discuss.flarum.org/d/27698"
         }
     }
 }
