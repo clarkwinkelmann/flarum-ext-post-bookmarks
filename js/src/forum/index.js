@@ -3,7 +3,7 @@ import addPage from './addPage';
 
 /* global app */
 
-app.initializers.add('clarkwinkelmann-bookmarks', () => {
+app.initializers.add('clarkwinkelmann-post-bookmarks', () => {
     addDiscussionControls();
     addPage();
 });

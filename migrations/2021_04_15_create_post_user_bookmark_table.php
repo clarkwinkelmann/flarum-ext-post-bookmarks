@@ -5,6 +5,11 @@ use Illuminate\Database\Schema\Builder;
 
 return [
     'up' => function (Builder $schema) {
+        // In case a user migrates from the extension on the FlarumTR namespace
+        if ($schema->hasTable('post_user_bookmark')) {
+            return;
+        }
+
         $schema->create('post_user_bookmark', function (Blueprint $table) {
             $table->unsignedInteger('post_id');
             $table->unsignedInteger('user_id');
